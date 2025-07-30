@@ -1,0 +1,4 @@
+name: Dynmap_Post
+version: '1.0-SNAPSHOT'
+main: com.mumeinosato.Dynmap_Post
+api-version: '1.20'
