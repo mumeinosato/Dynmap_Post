@@ -2,3 +2,11 @@ name: Dynmap_Post
 version: '1.0-SNAPSHOT'
 main: com.mumeinosato.Dynmap_Post
 api-version: '1.20'
+depend:
+  - dynmap
+commands:
+  comment:
+    description: Post a comment to Dynmap
+    usage: /<command> <message>
+    permission: dynmap.post.comment
+    permission-message: You do not have permission to post comments.
